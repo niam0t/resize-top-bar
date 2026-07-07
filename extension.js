@@ -42,10 +42,16 @@ export default class ResizeTopBarExtension extends Extension {
       this._settings.disconnect(this._settingsChangedId);
       this._settingsChangedId = 0;
     }
+
+    if (this._settings) {
+      this._settings = null;
+    }
+
     const panel = Main.panel;
     if (this._originalHeight) {
       panel.height = this._originalHeight;
       panel.style = `height: ${this._originalHeight}px;`;
+      this._originalHeight = null;
     }
   }
 }
