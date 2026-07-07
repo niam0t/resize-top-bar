@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.resizetopbar@niam0t.github.io" path="/org/gnome/shell/extensions/resizetopbar@niam0t.github.io/">
+    <key name="panel-height" type="i">
+      <default>48</default>
+      <summary>Top Bar Height</summary>
+      <description>Set the height of the top bar in pixels.</description>
+    </key>
+  </schema>
+</schemalist>

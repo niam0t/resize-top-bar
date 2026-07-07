@@ -1,0 +1,9 @@
+{
+  "name": "Resize Top Bar",
+  "description": "A extension to change the top bar height",
+  "uuid": "resizetopbar@niam0t.github.io",
+  "shell-version": [
+    "50"
+  ],
+  "settings-schema": "org.gnome.shell.extensions.resizetopbar@niam0t.github.io"
+}

@@ -1,0 +1,20 @@
+# Compiled schemas (will be generated on install)
+schemas/*.gschema.valid
+schemas/gschemas.compiled
+
+# Backup files
+*~
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.log
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Editor directories
+.vscode/
+.idea/
